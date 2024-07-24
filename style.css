@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+    background: black;
+    height: 80px;
+    width: 100%;
+
+}
+label.logo{
+    color: aliceblue;
+    background-color: orange;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 60px ;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+
+}
+a.hom,a:hover{
+    background: orange;
+    transition: 5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width:450px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+
+}
+@media (max-width: 450px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+
+    }
+
+}
+.box img{
+    background-color: transparent;
+  filter: brightness(30%);
+ width: 100%;
+
+ 
+  }
+  .box {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(240, 156, 0);
+  }
+  .box1{
+    text-align: center;
+  }
+  button{
+    width: 30%;
+    height: 60px;
+    background-color: white;
+    border: 1px solid black;
+  }
+  button:hover{
+    background-color: orange;
+  }
+  .box2{
+    background-color: rgb(224, 224, 224);
+  }
+
+span{
+    color: orange;
+}
+.box3{
+    background-color: white;
+    border: 1px solid black;
+}
+.box4{
+    background-color: white;
+    border: 1px solid black;
+}
+.box5{
+    background-color: white;
+    border: 1px solid black;
+}
+.box6{
+    background-color: rgb(235, 159, 18);
+    color: white;
+    font-weight: 700px;
+   
+}
+.box7{
+    background-color: rgb(131, 127, 127);
+    color: white;
+    font-weight: 700px;
+   
+}
+
+
+.search img{
+    background-color: transparent;
+  filter: brightness(30%);
+ width: 100%;
+
+ 
+  }
+  .cap {
+    position: absolute;
+ bottom: -300%;
+    display: inline-block;
+  }
+  @media all and (max-width:550px){
+    .cap {
+    display:none;
+   
+    }
+    }
+    .box9{
+        background-color: rgb(66, 65, 65);
+        color: white;
+    }
+    .box10{
+        position: absolute;
+        top: 430%;
+        left: 80%;
+        transform: translate( -50%, -50% );
+   
+    }
